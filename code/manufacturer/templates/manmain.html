@@ -1,0 +1,32 @@
+{% extends 'basemf.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+
+{% block body %}
+<h2>Husqvarna Mainpage</h2>
+<a href="mowerpagemf.html">
+    <button type="button">Mower Page</button>
+</a>
+<a href="requestmf.html">
+    <button type="button">Request Page</button>
+</a>
+{% endblock %} 
+
+{% block navbuttons %}
+<li class="nav-item">
+    <a class="nav-link" href="mowerpagemf.html">Mower Page</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="productlistmf.html">Product List</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="requestmf.html">Request Page</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="ServiceproviderList.html">Serviceproviders</a>
+</li>
+<a href="{{ url_for('logout') }}">Logout</a>
+{% endblock %}
