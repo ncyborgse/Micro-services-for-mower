@@ -97,9 +97,6 @@ Get redirected to area settings page and fill in information to finish customer 
 Success can be seen at area in Customer Mainpage when status for area is "Pending". One must now wait for manufacturer and serviceprovider to complete their parts. 
 
 ## Documentation
-# Moqup
-The moqup is an easly stage moqup that somewhat illustrates the look of the website. This has been changed a lot during development and does not represent the final result.
-https://www.figma.com/file/kHqxsPFkOk561WTRrtqmez/Project-7?type=design&node-id=0-1&mode=design&t=vyM2DaXzGo8gs9QP-0 
 
 # State chart
 The state chart is a diagram that describes the different states that the portal can have depending on user input. These states represent windows and pages on the website and solely describe what the user will see when using the platform.
